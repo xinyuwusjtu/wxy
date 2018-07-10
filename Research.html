@@ -1,0 +1,197 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Mozilla/4.7 [en] (X11; U; SunOS 5.6 sun4u) [Netscape]">
+<title>Xinyu Wu's Research</title>
+</head>
+	
+<body>
+<div id="myresearch">
+<h1 align="left">
+Research
+</h1>
+
+<h2>
+Social Network De-anonymization with Overlapping Communities:
+Analysis, Algorithm and Experiments
+</h2>
+
+<i>
+	<b>Xinyu Wu</b>, Zhongzhao Hu, Xinzhe Fu, Luoyi Fu, Xinbing Wang, Songwu Lu
+</i>
+
+<h4>
+accepted by <i>IEEE International Conference on Computer Communications (INFOCOM)</i>, Honolulu, USA, Apr. 15th-19th, 2018. (Acceptance Rate <i>19.2%</i>, 309/1,606).
+</h4>
+
+<h2>
+Abstract
+</h2>
+
+<p>
+The advent of social networks poses severe threats
+on user privacy as adversaries can de-anonymize users’identities
+by mapping them to correlated cross-domain networks. Without
+ground-truth mapping, prior literature proposes various cost
+functions in hope of measuring the quality of mappings. However,
+there is generally a lacking of rationale behind the cost functions,
+whose minimizer also remains algorithmically unknown.
+<br>
+We jointly tackle above concerns under a more practical
+social network model parameterized by overlapping communities,
+which, neglected by prior art, can serve as side information
+for de-anonymization. Regarding the unavailability of ground-truth mapping to adversaries, by virtue of the Minimum Mean
+Square Error (MMSE), our first contribution is a well-justified
+cost function minimizing the expected number of mismatched
+users over all possible true mappings. While proving the NP-hardness of minimizing MMSE, we validly transform it into the
+weighted-edge matching problem (WEMP), which, as disclosed
+theoretically, resolves the tension between optimality and complexity: (i) WEMP asymptotically returns a negligible mapping
+error in large network size under mild conditions facilitated by
+higher overlapping strength; (ii) WEMP can be algorithmically
+characterized via the convex-concave based de-anonymization
+algorithm (CBDA), perfectly finding the optimum of WEMP.
+Extensive experiments further confirm the effectiveness of CBDA
+under overlapping communities, in terms of averagely 90% re-identified users in the rare true cross-domain co-author networks
+when communities overlap densely, and roughly 70% enhanced
+re-identification ratio compared to non-overlapping cases.
+
+</p>
+
+<br>
+
+<b>9-Page Paper (accepted by INFOCOM 2018):</b>
+
+<p>
+<a href="Infocom18_De_anonymization.pdf">Social Network De-anonymization with Overlapping Communities:
+Analysis, Algorithm and Experiments</a>
+</p>
+
+<b>
+Full Paper (submitted to IEEE Transactions on Information Theory):
+</b>
+
+<p>
+<a href="IT_Xinyu_Wu.pdf">Full paper</a>
+</p>
+
+<br>
+<br>
+
+<h2>
+Large-scale Wireless Fingerprints Prediction for
+Cellular Network Positioning
+</h2>
+
+<i>
+	<b>Xinyu Wu</b>, Xiaohua Tian, Xinbing Wang
+</i>
+
+<h4>
+accepted by <i>IEEE International Conference on Computer Communications (INFOCOM)</i>, Honolulu, USA, Apr. 15th-19th, 2018. (Acceptance Rate <i>19.2%</i>, 309/1,606).
+</h4>
+
+<h2>
+Abstract
+</h2>
+
+<p>
+Cellular network positioning is a mandatory requirement for localizing emergency callers, such as E911 in
+North America. Although smartphones are normally with GPS
+modules, there are still a large number of users with cell
+phones only as basic devices, and GPS could be ineffective
+in urban canyon environments. To this end, the fingerprinting
+positioning mechanism is incorporated into LTE architecture by
+3GPP, where the major challenge is to collect geo-tagged wireless
+fingerprints in vast areas. This paper proposes to utilize the
+subspace identification approach for large-scale wireless fingerprints prediction. We formulate the problem into the problem of
+finding the optimal subspace over Stiefel manifold, and redesign
+the Stiefel-manifold optimization method with fast convergence
+rate. Moreover, we propose a sliding window mechanism for
+the practical large-scale fingerprints prediction scenario, where
+fingerprints are unevenly distributed in the vast area. Combining
+the two proposed mechanisms enables an efficient method of
+large-scale fingerprints prediction in the city level. Further, we
+validate our theoretical analysis and proposed mechanisms by
+conducting experiments with real mobile data, which shows
+that the resulted localization accuracy and reliability with our
+predicted fingerprints exceed the requirement of E911.
+</p>
+
+<br>
+
+<b>9-Page Paper (accepted by INFOCOM 2018):</b>
+
+<p>
+<a href="infocom_2018_Subspace.pdf">Large-scale Wireless Fingerprints Prediction for
+Cellular Network Positioning</a>
+</p>
+
+<b>
+Full Paper (Full Version):
+</b>
+
+<p>
+<a href="infocom_2018_subspace-full.pdf">Full paper</a>
+</p>
+
+<br>
+<br>
+
+<h2>
+Online Pricing Crowdsensed Fingerprints for Accurate Indoor Localization
+</h2>
+
+<i>
+	Xiaohua Tian, Wencan Zhang, Jingchao Wang, Wenxin Li, Shitao Li, <b>Xinyu Wu</b>, Yucheng Yang
+</i>
+
+<h4>
+	accepted as the <b>Best Paper Award</b> in <i>2017 IEEE 86th Vehicular Technology Conference: VTC2017-Fall</i> (Best Paper Rate: <i>1/841</i>)
+</h4>
+
+<h2>
+Abstract
+</h2>
+
+<p>
+Fingerprinting localization systems are outstanding
+for its convenient deployment, where a major challenge is the
+high cost for collecting a huge number of received signal strength
+(RSS) fingerprints. Mobile crowdsensing (MCS) paradigm is
+cost-effective for large-scale data collection; however, a qualityaware
+data pricing mechanism dedicated to MCSed fingerprints
+accommodating practical application situations including budget
+constraints and online data submission is still unavailable. In
+this paper, we present a data pricing scheme dedicated to
+MCSed fingerprints by enhancing the online learning technique.
+We first reveal the principle of fingerprints quality assessment
+for accurate localization. Based on the principle, we design
+corresponding loss and regret function, reflecting the values of
+the fingerprints with respect to localization accuracy. We then
+present an online pricing scheme for MCSed data, which results
+in that the worker’s payoff is a random variable following
+an optimal probability density function (PDF) leading to the
+minimum expected regret. Further, we extend our scheme to
+application scenarios with different budget settings, where the
+pricing strategies for the scenarios of regret minimization with
+fixed budget and budget minimization for certain fingerprints
+quality level are investigated. Experimental results are presented
+to verify our theoretical analysis.
+</p>
+
+<b>Paper:</b>
+
+<p>
+<a href="Online_Pricing_Crowdsensed_Fingerprints_for_Accurate_Indoor_Localization.pdf">Online Pricing Crowdsensed Fingerprints for Accurate Indoor Localization</a>
+</p>
+
+<br>
+
+<p>
+<img src="VTC_Best_Paper.png" width="400" height="300" />
+</p>
+
+</div>
+</body>
+</html>

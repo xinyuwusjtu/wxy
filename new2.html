@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+</head>
+
+<body  bgcolor="#d0d0d0"
+text="black">
+
+<p>
+一幅图像：
+<img src="photo.JPG" width="128" height="128" />
+</p>
+
+<p>
+来自 W3School.com.cn 的图像：
+<img src="http://www.w3school.com.cn/i/w3school_logo_white.gif" />
+</p>
+
+<p>图像 <img 
+border="0"  src ="photo.JPG" align="middle"
+width="100"
+height="100"> 在文本中</p>
+
+<p>
+<img src ="photo.JPG" align ="left"
+width="100"
+height="100"> 
+带有图像的一个段落。图像的 align 属性设置为 "left"。图像将浮动到文本的左侧。
+</p>
+
+<p>
+您也可以把图像作为链接来使用：
+<!--
+<a
+href=...>
+-->
+<a href="new1.html">
+<img border="0" src="photo.JPG"
+width="100"
+height="100" />
+</a>
+</p>
+
+<p>请点击图像上的星球，把它们放大。</p>
+
+<img
+src="/i/eg_planets.jpg"
+border="0" usemap="#planetmap"
+alt="Planets" />
+
+<!--
+img中usemap属性是引用map元素中的各个属性
+-->
+
+<map name="planetmap" id="planetmap">
+
+<area
+shape="circle"
+coords="180,139,14"
+href ="/example/html/venus.html"
+target ="_blank"
+alt="Venus" />
+
+<area
+shape="circle"
+coords="129,161,10"
+href ="/example/html/mercur.html"
+target ="_blank"
+alt="Mercury" />
+
+<area
+shape="rect"
+coords="0,0,110,260"
+href ="/example/html/sun.html"
+target ="_blank"
+alt="Sun" />
+
+</map>
+
+<p><b>注释：</b>img 元素中的 "usemap" 属性引用 map 元素中的 "id" 或 "name" 属性（根据浏览器），所以我们同时向 map 元素添加了 "id" 和 "name" 属性。</p>
+
+<a href="test6.html">
+<img src="photo.JPG"
+height="100" width="100" ismap />
+</a>
+
+<!--
+作一张图中多个链接的方法
+-->
+
+
+</body>
+</html>
